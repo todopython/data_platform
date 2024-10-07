@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework', # drf
     'foodking',  # 맛집 추천
     'houseking',  # 자취방 추천
 ]
