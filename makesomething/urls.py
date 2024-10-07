@@ -16,12 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from foodking.views import FoodViewSet
 
-from foodking import views as food_views
-from houseking import views as house_views
+# Router 설정
+router = DefaultRouter()
+router.register(r'foods', FoodViewSet)  # 'foods/' 경로에 FoodViewSet을 등록
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('foodking/', include('foodking.urls')),  # foodking 앱의 urls.py, 장고는 이렇게 앱별로 따로따로 url을 관리하는게 맞음
     path('houseking/', include('houseking.urls')),  # houseking 앱의 urls.py
+    path('api/', include(router.urls)),  # API 엔드포인트를 '/api/' 경로로 설정
 ]
