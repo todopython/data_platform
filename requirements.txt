@@ -1,0 +1,15 @@
+Django==4.2.6
+psycopg2-binary==2.9.7
+djangorestframework==3.15.0
+drf-spectacular
+boto3==1.28.62
+gunicorn
+djangorestframework-simplejwt
+Pillow==10.0.1
+celery==5.3.6
+redis==5.0.1
+requests==2.31.0
+django-cors-headers
+gevent
+flower
+django-prometheus
