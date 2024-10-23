@@ -12,15 +12,18 @@ Digital Twin Django project
 알림 시스템: 특정 조건(예: 임계값 초과 시)에 따라 사용자에게 알림을 전송하는 기능을 추가
 
 # 2. 기술 스택
+```
 Django: 웹 애플리케이션 프레임워크
 Django REST Framework (DRF): API 구축을 위한 라이브러리
 데이터베이스: PostgreSQL, MySQL 등
 Frontend: HTML, CSS, JavaScript, React
 데이터 시각화 라이브러리: Chart.js, D3.js 등
 센서 통신 프로토콜: MQTT 또는 REST API.
+```
 
 # 3. 확장성
 분석 및 머신러닝: 수집된 데이터를 기반으로 예측 모델을 구축하여 장비의 성능을 최적화하거나 유지보수 예측을 할 수 있습니다.
+
 스마트폰 앱: Django REST API를 사용하여 모바일 애플리케이션을 개발하여 사용자 편의성을 높일 수 있습니다.
 
 1. 디지털 트윈 온도계 시뮬레이션
