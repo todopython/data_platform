@@ -37,6 +37,10 @@ Frontend: HTML, CSS, JavaScript, React
 결과에 따라 오차가 작은 시군구는 주거지역으로 연내 안정적으로 전기수요가 유지되는곳으로 보인다.
 ![image](https://github.com/user-attachments/assets/564b9ef8-204f-40e1-a69d-8fdefcce487c)
 
+MAE MSE 오차를 다음과 같이 그래프로 나타내어 보았다.
+![image](https://github.com/user-attachments/assets/f508db8c-d872-4b66-90e3-bef15b993671)
+
+
 해당 결과뿐만이 아닌 이전 30년의 의 데이터 또한 취합하여 분석해본다면 어느 시점에 어느 지역에 전력 소모량이 늘어나는지 알 수 있을 것으로 보이며 이를 통한 전력망 관리에 자동화와 지능화에 기여할 수 있을 것으로 보인다
 
 # 디지털 트윈 온도계 시뮬레이션
