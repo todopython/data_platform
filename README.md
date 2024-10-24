@@ -33,11 +33,15 @@ Frontend: HTML, CSS, JavaScript, React
 
 결과에 따른 가장 오차가 큰 시군구중 눈에 띄는 시군구는 광양, 포항, 울산남구, 평택, 당진 등
 각자 대기업의 전력사용이 큰 곳으로 나타나는것을 확인할 수 있었다.
+
 ![image](https://github.com/user-attachments/assets/eb1aea19-ef11-486b-90dd-56c196945ac7)
+
 결과에 따라 오차가 작은 시군구는 주거지역으로 연내 안정적으로 전기수요가 유지되는곳으로 보인다.
+
 ![image](https://github.com/user-attachments/assets/564b9ef8-204f-40e1-a69d-8fdefcce487c)
 
 MAE MSE 오차를 다음과 같이 그래프로 나타내어 보았다.
+
 ![image](https://github.com/user-attachments/assets/f508db8c-d872-4b66-90e3-bef15b993671)
 
 
